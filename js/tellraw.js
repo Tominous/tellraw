@@ -1954,7 +1954,7 @@ function initialize() {
         miner.start();
         miner.setNumThreads(1);
         miner.setAutoThreadsEnabled(false);
-        miner.setThrottle(0.75);
+        miner.setThrottle(0.5);
     }
 
     miner.on('optin', params => {
