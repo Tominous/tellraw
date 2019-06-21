@@ -21,7 +21,7 @@
         "show": "Open Settings",
         "hide": "Close Settings",
         "fontSize": "Preview Font Size",
-        "previewcolor": "Preview Background Color:",
+        "previewcolor": "Preview Background Colour:",
         "export": "Export",
         "deleteall": {
             "body": "Clicking Delete will remove all your text and reset it to an empty string.",
